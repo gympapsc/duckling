@@ -19,6 +19,7 @@ import qualified Duckling.Email.DE.Rules as Email
 import Duckling.Locale
 import qualified Duckling.Numeral.DE.Rules as Numeral
 import qualified Duckling.Ordinal.DE.Rules as Ordinal
+import qualified Duckling.Quantity.DE.Rules as Quantity
 import qualified Duckling.Time.DE.Rules as Time
 import qualified Duckling.TimeGrain.DE.Rules as TimeGrain
 import Duckling.Types
@@ -40,7 +41,7 @@ langRules (Seal Email) = Email.rules
 langRules (Seal Numeral) = Numeral.rules
 langRules (Seal Ordinal) = Ordinal.rules
 langRules (Seal PhoneNumber) = []
-langRules (Seal Quantity) = []
+langRules (Seal Quantity) = Quantity.rules
 langRules (Seal RegexMatch) = []
 langRules (Seal Temperature) = []
 langRules (Seal Time) = Time.rules

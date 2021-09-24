@@ -620,6 +620,8 @@ library
                      -- Quantity
                      , Duckling.Quantity.AR.Corpus
                      , Duckling.Quantity.AR.Rules
+                     , Duckling.Quantity.DE.Corpus
+                     , Duckling.Quantity.DE.Rules
                      , Duckling.Quantity.EN.Corpus
                      , Duckling.Quantity.EN.Rules
                      , Duckling.Quantity.ES.Corpus
